@@ -42,7 +42,7 @@ type Node interface {
 }
 
 func (this *nodeImpl) Find(key Comparable) Node {
-	if this.IsEmpty() {git
+	if this.IsEmpty() {
 		return this
 	}
 
